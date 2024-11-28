@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    line-height: 25px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 70px;
+}
+.parent-div{
+    display: flex;
+    flex-direction: row;
+
+}
+.orange-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 34%;
+    gap: 20px;
+    padding: 50px 0px 50px 0px;
+    background-color: orange;
+}
+.sedan-div{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+.sedan-div h1{
+    color: white;
+}
+.sedan-div p{
+    width: 15vw;
+    font-size: 18px;
+    text-align: start;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.btn{
+    background-color: hsl(0, 0%, 95%);;
+    width: 8vw;
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    color: hsl(31, 77%, 52%);
+}
+.blue-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 34%;
+    gap: 20px;
+    padding: 50px 0px 50px 0px;
+    background-color: hsl(184, 100%, 22%);
+}
+.suv-div{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+.suv-div h1{
+    color: white;
+}
+.suv-div p{
+    width: 15vw;
+    font-size: 18px;
+    text-align: start;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+/* .learn-div2{
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 95%);
+} */
+.but{
+    background-color: hsl(0, 0%, 95%);;
+    width: 8vw;
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    color: hsl(184, 100%, 22%);
+}
+.green-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 34%;
+    gap: 20px;
+    padding: 50px 0px 50px 0px;
+    background-color:hsl(179, 100%, 13%);
+}
+.luxury-div{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+.luxury-div h1{
+    color: white;
+}
+.luxury-div p{
+    width: 15vw;
+    font-size: 18px;
+    text-align: start;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.learn-div3{
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 95%);
+}
+.ton{
+    background-color: hsl(0, 0%, 95%);;
+    width: 8vw;
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    color: hsl(179, 100%, 13%);
+}
+
+
+
+
+
+
+
+@media screen and  (max-width: 950px) {
+    main{
+        padding: 20px;
+    }
+    body{
+        padding: 50px 0px 50px 0px;
+    }
+    .parent-div{
+        flex-direction: column;
+        width: 100%;
+    }
+    .orange-div{
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .sedan-div p{
+        width: 75vw;
+        font-size: 23px;
+        
+    }
+    .btn{
+        width: 38vw;
+        padding: 18px;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+    .blue-div{
+        width: 100%;
+    }
+    .suv-div p{
+        width: 75vw;
+        font-size: 23px;  
+    }
+    .but{
+        width: 38vw;
+        padding: 18px;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+    .green-div{
+        width: 100%;
+        border-radius: 0px 0px 15px 15px;
+    }
+    .luxury-div p{
+        width: 75vw;
+        font-size: 23px;  
+    }
+    .ton{
+        width: 38vw;
+        padding: 18px;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+}
+ 
+    
+
+
